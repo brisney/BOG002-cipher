@@ -4,11 +4,55 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
     <script src="index.js" type="module"></script>
+  </head>
+ 
+  <body>
+    <div id="container">
+    <header>
+       <div class=encabezado>
+         <h1>Cifrado cesar</h1>
+         <div class="img1"></div>
+       </div>   
+    </header>
+    <main>
+      <section class="img2"></section>
+
+      <section>
+        <h2>Generador de claves seguras</h2>    
+      </section>
+
+      <section class="cuadroacifrar" id="cuadrocifrar">
+        <form id="formparacifrar" class="formcifrar">
+        <!-- <div class="casillas"> -->
+          <div class="casillas">
+            <label for="espacioclave" class="campoclave">Introduce clave a cifrar
+              <input type="text" id="espacioclave" class="campo1" size="30" placeholder="Ingresa clave"
+                required></input>
+            </label>
+          </div>
+
+          <div class="casillas">
+            <label for="espacioposiciones" class="textoposicion">Número de posiciones
+              <input type="text" id="espacioposiciones" class="campo2" size="20" minlength=" " maxlength=" "
+                required>
+            </label>
+          </div>
+          <div class="casillas">
+            <button type="button" id="cifrar" class="botoncifrar" value="Submit">Cifrar</button>
+          </div>
+        <!-- </div>   -->
+        </form>
+      </section>
+ 
+   
+
+
+
+
+
+    </main>
+    <footer class="piepagina">Brisney</footer>
+   </div> 
   </body>
 </html>
