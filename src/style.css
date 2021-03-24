@@ -99,4 +99,46 @@ h2 {
     top: 1050px;
    }  
 
-  /* Estilos para cuadro cifrar */  
+  /* Estilos para cuadro decifrar */  
+  .formdecifrar {
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    left: 840px;
+    top: 640px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+} 
+.casillasdecifrar {
+    padding-bottom: 25px;     
+} 
+.camp1 {
+    width: 220px;
+    height: 28px;
+    font-size: 20px;
+}
+.campoclavedecifrar{
+    font-size: 20px;
+}
+.camp2 {
+    width: 68%;
+    height: 28px;
+    font-size: 20px; 
+}        
+.posiciondecifrar {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+} 
+.botondecifrar{
+    position: relative;
+    left: 58px;
+    width: 42%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
