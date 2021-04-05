@@ -14,7 +14,7 @@ h1 {
     width: 473px;
     height: 79px;
     left: 600px; 
-    font-family: "Agency FB"; 
+    font-family: "Milonga", cursive; 
     font-size: 55px; 
     color: #131212;
 } 
@@ -100,7 +100,7 @@ h2 {
    }  
 
   /* Estilos para cuadro decifrar */  
-  .formdecifrar {
+  .formdescifrar {
     position: absolute;
     width: 250px;
     height: 190px;
@@ -112,7 +112,7 @@ h2 {
     padding: 25px 10px 25px 30px;  
     box-shadow: 5px 5px 10px 0px; 
 } 
-.casillasdecifrar {
+.casillasdescifrar {
     padding-bottom: 25px;     
 } 
 .camp1 {
@@ -123,20 +123,92 @@ h2 {
 .campoclavedecifrar{
     font-size: 20px;
 }
-.camp2 {
+.inputcamp2 {
     width: 68%;
     height: 28px;
     font-size: 20px; 
 }        
-.posiciondecifrar {
+.posiciondescifrar {
     position: relative;
     left: 20px;
     font-size: 20px;
 } 
-.botondecifrar{
+.botondescifrar{
     position: relative;
     left: 58px;
     width: 42%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
+/* Estilos para cuadro clave cifrada segunda página */
+.cuadroclavecifrada {
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    left: 550px;
+    top: 483px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+    display: none; 
+}
+.casillacifrado {
+    padding-bottom: 30px;
+}
+.inputcifrado {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+.textocifrado {
+    left: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.enlace1 {
+    position: relative;
+    left: 25px;
+    width: 70%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
+/* Estilos para cuadro de clave descifrada segunda página */
+.cuadroclavedescifrada {
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    left: 550px;
+    top: 483px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+    display: none; 
+}
+.casilladescifrado {
+    padding-bottom: 30px;
+}
+.inputdescifrado {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+.textodescifrado {
+    left: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.enlace2 {
+    position: relative;
+    left: 25px;
+    width: 70%;
     height: 35px; 
     background-color: #E3BB6D;
     font-size: 25px; 
