@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div class="encabezado">
+        <h1>Cifrado cesar</h1>
+        <div class="img1"></div>
+      </div>
+    </header>
+    <main>
+      <div id="contiene"> 
+        <section class="img2"></section>
+
+        <section>
+          <h2>Generador de claves seguras</h2>
+        </section>
+
+        <section class="cuadroparacifrar" id="cuadrocifrar">
+          <form id="formparacifrar" class="formcifrar">
+            <div class="casillas">
+              <label for="espacioclavecifrar" class="campoclave">Introduce clave a cifrar
+                <input type="text" id="espacioclavecifrar" class="campo1" size="30" placeholder="Ingresa clave"
+                  required></input>
+              </label>
+            </div>
+
+            <div class="casillas">
+              <label for="espacioposicionescifrar" class="textoposicion">Número de posiciones
+                <input type="text" id="espacioposicionescifrar" class="campo2" size="20" minlength=" " maxlength=" " required>
+              </label>
+            </div>
+            <div class="casillas">
+              <button type="button" id="cifrar" class="botoncifrar" value="Submit">Cifrar</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="cuadroadescifrar" id="cuadrodescifrar">
+          <form id="formulariodescifrar" class="formdescifrar">
+            <div class="casillasdescifrar">
+              <label for="espacioclavedescifrar" class="campoclavedecifrar">Introduce clave a descifrar
+                <input type="text" id="espacioclavedescifrar" class="camp1" size="30" placeholder="Ingresa clave"
+                  required></input>
+              </label>
+            </div>
+
+            <div class="casillasdescifrar">
+              <label for="espacioparaposiciones" class="posiciondescifrar">Número de posiciones
+                <input type="text" id="espacioparaposiciones" class="inputcamp2" size="20" minlength=" " maxlength=" "
+                  required>
+              </label>
+            </div>
+            <div class="casillasdescifrar">
+              <button type="button" id="descifrar" class="botondescifrar" value="Submit">Decifrar</button>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      
+        <section>
+          <form id="cuadrocifrado" class="cuadroclavecifrada">
+            <div class="casillacifrado">
+              <label for="espacioclavecifrada" class="textocifrado">Clave cifrada
+                <input type="text" id="espacioclavecifrada" class="inputcifrado" size="30"></input>
+              </label>
+            </div>
+            <div class="casillacifrado">
+              <button type="button" id="enlacecifrar" class="enlace1" value="Submit">volver al inicio</button>
+            </div>
+          </form>
+        </section>
+      
+      <section>
+        <form id="cuadrodescifrado" class="cuadroclavedescifrada">
+          <div class="casilladescifrado">
+            <label for="clavedescifrada" class="textodescifrado">Clave descifrada
+              <input type="text" id="clavedescifrada" class="inputdescifrado" size="30"></input>
+            </label>
+          </div>
+          <div class="casilladescifrado">
+            <button type="button" id="enlacedescifrar" class="enlace2" value="Submit">volver al inicio</button>
+          </div>
+        </form>
+      </section>
+
+    </main>
+    <footer class="piepagina">Brisney</footer>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

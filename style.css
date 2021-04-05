@@ -1,0 +1,216 @@
+body {
+    background: #FBF8ED;
+    margin: 0px;
+}
+.encabezado {
+    position: relative;
+    width: 1520px;
+    height: 130px;
+    background: #EDDDBB;
+    margin-top: 0px;
+}
+h1 {
+    position: absolute;
+    width: 473px;
+    height: 79px;
+    left: 600px; 
+    font-family: "Milonga", cursive; 
+    font-size: 55px; 
+    color: #131212;
+} 
+.img1 {
+    background-image: url("img1cifrado.jpg");
+    position: absolute;
+    width: 265px; 
+    height: 130px;
+    left: 0px; 
+    top: 0px; 
+}
+.img2 {
+    background-image: url("imagen2cifrado.jpg");
+    position: absolute;
+    width: 658px;
+    height: 665px;
+    left: 72px;
+    top: 245px;
+}
+h2 {
+    position: absolute;
+    width: 482px;
+    height: 82px;
+    left: 745px;
+    top: 176px;
+    font-family: Lekton;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+/* Estilos para cuadro cifrar */
+.formcifrar {
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    left: 840px;
+    top: 360px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+} 
+.casillas {
+    padding-bottom: 25px;     
+} 
+.campo1 {
+    width: 220px;
+    height: 28px;
+    font-size: 20px;
+}
+.campoclave {
+    font-size: 20px;
+}
+.campo2 {
+    width: 68%;
+    height: 28px;
+    font-size: 20px; 
+}        
+.textoposicion {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+} 
+.botoncifrar{
+    position: relative;
+    left: 70px;
+    width: 38%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
+.piepagina {
+    position: absolute;
+    width: 1520px;
+    height: 130px;
+    background: #EDDDBB;
+    top: 1050px;
+   }  
+
+  /* Estilos para cuadro decifrar */  
+  .formdescifrar {
+    position: absolute;
+    width: 250px;
+    height: 190px;
+    left: 840px;
+    top: 640px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+} 
+.casillasdescifrar {
+    padding-bottom: 25px;     
+} 
+.camp1 {
+    width: 220px;
+    height: 28px;
+    font-size: 20px;
+}
+.campoclavedecifrar{
+    font-size: 20px;
+}
+.inputcamp2 {
+    width: 68%;
+    height: 28px;
+    font-size: 20px; 
+}        
+.posiciondescifrar {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+} 
+.botondescifrar{
+    position: relative;
+    left: 58px;
+    width: 42%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
+/* Estilos para cuadro clave cifrada segunda página */
+.cuadroclavecifrada {
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    left: 550px;
+    top: 483px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+    display: none; 
+}
+.casillacifrado {
+    padding-bottom: 30px;
+}
+.inputcifrado {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+.textocifrado {
+    left: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.enlace1 {
+    position: relative;
+    left: 25px;
+    width: 70%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
+/* Estilos para cuadro de clave descifrada segunda página */
+.cuadroclavedescifrada {
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    left: 550px;
+    top: 483px;
+    border-radius: 10px; 
+    background: #C2BCAC;
+    border: 2px solid #3B3B3B;
+    padding: 25px 10px 25px 30px;  
+    box-shadow: 5px 5px 10px 0px; 
+    display: none; 
+}
+.casilladescifrado {
+    padding-bottom: 30px;
+}
+.inputdescifrado {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+.textodescifrado {
+    left: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+.enlace2 {
+    position: relative;
+    left: 25px;
+    width: 70%;
+    height: 35px; 
+    background-color: #E3BB6D;
+    font-size: 25px; 
+    text-align: center;
+}
