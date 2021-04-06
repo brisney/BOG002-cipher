@@ -54,3 +54,4 @@ function mostrarClaveDescifrada(){
    document.querySelector(".cuadroclavedescifrada").style.display = 'block';
    }
     
+   

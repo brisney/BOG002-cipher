@@ -12,14 +12,7 @@
 
 ## 1. Definición del proyecto
 
-este proyecto es una aplicación cuya funcionalidad es la de generar claves seguras mediante la opción de cifrar o descifrar cualquier frase que el usuario ingrese
-
-
-
-En este proyecto presentamos una aplicación web que hace uso del Cifrado Cesar para encriptar y decriptar mensajes en la que el usuario puede elegir el desplazamiento para cifrar y para descifrar, aportando seguridad adicional.
-
-Criptolove es una aplicación que permite encriptar y desencriptar mensajes para tu amad@, sugar daddy o sugar mommy, nuestro programa funciona con el uso del cifrado cesar para poder encriptar o desencriptar tu mensaje, puedes así obtener un párrafo completo o una frase para que no te descubran mientras escribes a esa persona secreta.
-
+Este proyecto es una aplicación web cuya funcionalidad es generar claves seguras mediante la opción cifrar o descifrar, así mismo el usuario puede controlar la cantidad de desplazamientos que se van a aplicar para generar la nueva clave.
 
 ### Principales usuarios del producto
 
@@ -37,12 +30,23 @@ Debido al aumento de ciberdelitos se considera necesario tener una clave segura 
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
-web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
-un desplazamiento específico de caracteres (_offset_).
+Para el desarrollo de la aplicación web se opto por hacer un boceto en papel y lápiz de como seria la interfaz a la que el usuario tendria acceso mostrando las caracteristicas, diseño y funcionalidad del proyecto.
 
 ### Primer prototipo en papel y lápiz
 <img src = "imagen-prototipo1.jpg">
+
+Se mostro este boceto a un coach y se recibio feedback 
+
+### Segundo prototipo en papel y lápiz
+De acuerdo con el feedback recibido en el primer boceto se corrigio y se plasmo el siguiente boceto:
+
+
+En este boceto se volvio a recibir un feedback sobre 
+### Prototipo final
+
+
+
+
 
 ## 3. Objetivos de aprendizaje
 
