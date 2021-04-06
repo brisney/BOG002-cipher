@@ -42,7 +42,7 @@ web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
 un desplazamiento específico de caracteres (_offset_).
 
 ### Primer prototipo en papel y lápiz
-<img src = "boceto1-readme.jpg">
+<img src = "imagen-prototipo1.jpg">
 
 ## 3. Objetivos de aprendizaje
 
